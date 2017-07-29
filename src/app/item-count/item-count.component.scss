@@ -1,0 +1,21 @@
+.ItemCount {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  color: #17407c;
+  flex:1;
+
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  border-radius:4px;
+  margin-top: 5px;
+
+  &__count {
+    font-size: 4em;
+    font-weight: bold;
+  }
+
+  &__subtle {
+    font-size: 0.8em;
+    opacity: 0.8;
+  }
+}
