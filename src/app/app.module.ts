@@ -7,6 +7,7 @@ import { ItemCountComponent } from './item-count/item-count.component';
 import { EstimatedTimeComponent } from './estimated-time/estimated-time.component';
 import { ControlsComponent } from './controls/controls.component';
 import { LapComponent } from './lap/lap.component';
+import { LapsComponent } from './laps/laps.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { LapComponent } from './lap/lap.component';
     ItemCountComponent,
     EstimatedTimeComponent,
     ControlsComponent,
-    LapComponent
+    LapComponent,
+    LapsComponent
   ],
   imports: [
     BrowserModule

@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import Lap from '../models/Lap';
 
 @Component({
   selector: 'app-laps',
@@ -7,7 +8,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class LapsComponent implements OnInit {
 
-  @Input() laps;
+  @Input() laps: Lap;
   constructor() { }
 
   ngOnInit() {
