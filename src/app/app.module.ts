@@ -6,6 +6,7 @@ import { TimerComponent } from './timer/timer.component';
 import { ItemCountComponent } from './item-count/item-count.component';
 import { EstimatedTimeComponent } from './estimated-time/estimated-time.component';
 import { ControlsComponent } from './controls/controls.component';
+import { LapComponent } from './lap/lap.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ControlsComponent } from './controls/controls.component';
     TimerComponent,
     ItemCountComponent,
     EstimatedTimeComponent,
-    ControlsComponent
+    ControlsComponent,
+    LapComponent
   ],
   imports: [
     BrowserModule
