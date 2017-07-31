@@ -22,4 +22,10 @@ describe('EstimatedTimeComponent', () => {
   it('should be created', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render the correct class', () => {
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('.EstimatedTime')).toBeTruthy();
+  });
+
 });
