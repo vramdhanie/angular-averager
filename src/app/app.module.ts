@@ -8,6 +8,7 @@ import { EstimatedTimeComponent } from './estimated-time/estimated-time.componen
 import { ControlsComponent } from './controls/controls.component';
 import { LapComponent } from './lap/lap.component';
 import { LapsComponent } from './laps/laps.component';
+import {TimerService} from "./services/timer.service";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { LapsComponent } from './laps/laps.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [TimerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
